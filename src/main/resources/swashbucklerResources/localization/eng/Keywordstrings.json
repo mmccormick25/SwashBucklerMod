@@ -1,0 +1,24 @@
+[
+  {
+    "PROPER_NAME": "TODO",
+    "NAMES": [
+      "todo",
+      "todos"
+    ],
+    "DESCRIPTION": "TODO: Make your own epic keywords"
+  },
+  {
+    "PROPER_NAME": "Bleed",
+    "NAMES": [
+      "bleed"
+    ],
+    "DESCRIPTION": "Bled creatures take extra damage from attacks."
+  },
+  {
+    "PROPER_NAME": "Plunder",
+    "NAMES": [
+      "Plunder:"
+    ],
+    "DESCRIPTION": "Exhaust a treasure to change this card's effect."
+  }
+]

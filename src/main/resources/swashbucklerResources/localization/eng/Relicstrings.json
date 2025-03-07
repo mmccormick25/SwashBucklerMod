@@ -1,0 +1,9 @@
+{
+  "${ModID}:GoldenSkull": {
+    "NAME": "Golden Skull",
+    "FLAVOR": "An old friend memorialized",
+    "DESCRIPTIONS": [
+      "Add 1 Treasure to your hand at the start of combat."
+    ]
+  }
+}

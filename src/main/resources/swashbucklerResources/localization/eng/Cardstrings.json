@@ -1,0 +1,195 @@
+{
+  "${ModID}:Strike": {
+    "NAME": "Strike",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "${ModID}:Defend": {
+    "NAME": "Defend",
+    "DESCRIPTION": "Gain !B! Block."
+  },
+  "${ModID}:ExampleTwoAmountPowerCard": {
+    "NAME": "Two Amount Power",
+    "DESCRIPTION": "At the start of your turn, gain !M! Strength and !${ModID}:m2! Dexterity."
+  },
+  "${ModID}:InlinePowerDemo": {
+    "NAME": "Inline Power",
+    "DESCRIPTION": "Strikes deal !M! more damage. NL At the end of your turn, gain !M! Block.",
+    "EXTENDED_DESCRIPTION": [
+      "Strike+, Block+",
+      "#yStrikes deal #b",
+      " additional damage. At the end of your turn, gain #b",
+      " #yBlock."
+    ]
+  },
+  "${ModID}:SelectCardsPlusCardMods": {
+    "NAME": "Cool Card Stuff",
+    "DESCRIPTION": "Choose from 1 of 3 cost 0 cards from any class. NL Add it into your hand. NL It gains Ethereal and Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      "Choose a card to add into your hand with Ethereal and Exhaust."
+    ]
+  },
+  "${ModID}:EasyXCostDemo": {
+    "NAME": "Easy X Cost",
+    "DESCRIPTION": "{@@}Deal !D! damage X{!M!|>0=+!M!} times. NL Gain X{!M!|>0=+!M!} Strength. NL Exhaust."
+  },
+  "${ModID}:EasyModalChoiceDemo": {
+    "NAME": "Easy Modal Choice",
+    "DESCRIPTION": "Choose one: Draw !M! cards or gain !${ModID}:m2! Strength.",
+    "EXTENDED_DESCRIPTION": [
+      "Draw",
+      "Draw ",
+      " cards.",
+      "Strength",
+      "Gain ",
+      " Strength."
+    ]
+  },
+  "${ModID}:DrawAndShiv": {
+    "NAME": "Draw and Shiv",
+    "DESCRIPTION": "Draw 1 card. NL Add 1 *Shiv into your hand."
+  },
+  "${ModID}:TwoTypesOfDamage": {
+    "NAME": "Two Damage Values",
+    "DESCRIPTION": "Deal !D! damage. NL If you're Vulnerable, deal !${ModID}:sd! damage instead."
+  },
+  "${ModID}:StartupBlockCard": {
+    "NAME": "Startup And AOE",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Startup: Gain !M! Block."
+  },
+  "${ModID}:MultiCardPreviewAndDrawCallback": {
+    "NAME": "Previews and Callbacks",
+    "DESCRIPTION": "{@@}Shuffle *Smite{!Upgrades!|>0=+} and *Safety{!Upgrades!|>0=+} into your draw pile. NL Draw 1 card. NL If it's Colorless, deal !D! damage to ALL enemies."
+  },
+  "${ModID}:Pillage": {
+    "NAME": "Pillage",
+    "DESCRIPTION": "Deal !D! damage. Add 1 *Treasure into your hand."
+  },
+  "${ModID}:Treasure": {
+    "NAME": "Treasure",
+    "DESCRIPTION": "Make !M! energy. NL Retain. NL Exhaust."
+  },
+  "${ModID}:Sever": {
+    "NAME": "Sever",
+    "DESCRIPTION": "Deal !D! damage. NL Apply 3 Bleed."
+  },
+  "${ModID}:Sail": {
+    "NAME": "Sail",
+    "DESCRIPTION": "Draw 1 Card. Add 1 *Treasure into your hand."
+  },
+  "${ModID}:Grapeshot": {
+    "NAME": "Grapeshot",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies 3 times. NL Ethereal."
+  },
+  "${ModID}:PiercingRounds": {
+    "NAME": "Piercing Rounds",
+    "DESCRIPTION": "Your attacks apply 1 Bleed."
+  },
+  "${ModID}:Brace": {
+    "NAME": "Brace",
+    "DESCRIPTION": "Gain !B! Block. NL Plunder: Gain !M! Block instead."
+  },
+  "${ModID}:Loot": {
+    "NAME": "Loot!",
+    "DESCRIPTION": "Return all Treasure cards from your Exhaust pile to your hand. NL Exhaust."
+  },
+  "${ModID}:CripplingShot": {
+    "NAME": "Crippling Shot",
+    "DESCRIPTION": "Deal !D! damage. NL Apply 1 Weak. NL Apply !M! Bleed."
+  },
+  "${ModID}:QuickHands": {
+    "NAME": "Quick Hands",
+    "DESCRIPTION": "Pay 3 Gold: Draw !M! cards."
+  },
+  "${ModID}:Pierce": {
+    "NAME": "Pierce",
+    "DESCRIPTION": "Deal !D! damage. NL Plunder: Deal !M! damage instead."
+  },
+  "${ModID}:Taunt": {
+    "NAME": "Taunt",
+    "DESCRIPTION": "Apply !M! Vulnerable to ALL enemies. NL Exhaust."
+  },
+  "${ModID}:Rend": {
+    "NAME": "Rend",
+    "DESCRIPTION": "Apply !M! Bleed."
+  },
+  "${ModID}:Deal": {
+    "NAME": "Deal",
+    "DESCRIPTION": "Draw !M! cards. NL Plunder: Draw !${ModID}:m2! cards instead."
+  },
+  "${ModID}:HeavyShot": {
+    "NAME": "Heavy Shot",
+    "DESCRIPTION": "Deal !D! damage. NL Plunder: Deal !M! damage instead."
+  },
+  "${ModID}:Evade": {
+    "NAME": "Evade",
+    "DESCRIPTION": "Gain !B! Block. NL Make a *Treasure."
+  },
+  "${ModID}:Knife": {
+    "NAME": "Knife",
+    "DESCRIPTION": "Deal !D! damage. NL Exhaust."
+  },
+  "${ModID}:HiddenWeapon": {
+    "NAME": "Hidden Weapon",
+    "DESCRIPTION": "Make a *Knife. NL Make a *Treasure."
+  },
+  "${ModID}:EmptyTheVault": {
+    "NAME": "Empty the Vault",
+    "DESCRIPTION": "Exhaust all *Treasure in your hand. Deal !D! damage to ALL enemies for each card Exhausted. NL Exhaust."
+  },
+  "${ModID}:Dig": {
+    "NAME": "Dig",
+    "DESCRIPTION": "Make X+!M! *Treasures. NL Exhaust."
+  },
+  "${ModID}:TreasureArmor": {
+    "NAME": "Treasure Armor",
+    "DESCRIPTION": "Whenever a *Treasure is Exhausted, gain !M! Block."
+  },
+  "${ModID}:Bribe": {
+    "NAME": "Bribe",
+    "DESCRIPTION": "Pay 5 Gold: Deal !D! damage."
+  },
+  "${ModID}:SmokeBomb": {
+    "NAME": "Smoke Bomb",
+    "DESCRIPTION": "Pay 5 Gold: Gain !B! Block."
+  },
+  "${ModID}:Leech": {
+    "NAME": "Leech",
+    "DESCRIPTION": "Apply !M! Bleed. NL Enemy doesn't lose Bleed this turn."
+  },
+  "${ModID}:CashIn": {
+    "NAME": "Cash In",
+    "DESCRIPTION": "Exhaust all *Treasure in your hand. Gain !M! gold for each Exhausted card. NL Exhaust."
+  },
+  "${ModID}:BigSpender": {
+    "NAME": "Big Spender",
+    "DESCRIPTION": "Upgrade all *Treasures you make."
+  },
+  "${ModID}:SwiftShots": {
+    "NAME": "Swift Shots",
+    "DESCRIPTION": "Deal !D! damage 2 times."
+  },
+  "${ModID}:Riposte": {
+    "NAME": "Riposte",
+    "DESCRIPTION": "Gain !B! Block. NL Apply !M! Bleed."
+  },
+  "${ModID}:SliceAndDice": {
+    "NAME": "Slice and Dice",
+    "DESCRIPTION": "Apply !M! Bleed to ALL enemies. NL Create 2 Knives."
+  },
+  "${ModID}:SpectralMist": {
+    "NAME": "Spectral Mist",
+    "DESCRIPTION": "Ethereal. NL Gain !B! Block."
+  },
+  "${ModID}:GraspingShadow": {
+    "NAME": "Grasping Shadow",
+    "DESCRIPTION": "Ethereal. NL Deal !D! Damage."
+  },
+  "${ModID}:TalkToTheDead": {
+    "NAME": "Talk To The Dead",
+    "DESCRIPTION": "Draw !M! cards. They gain Ethereal."
+  },
+  "${ModID}:GhostlyRemains": {
+    "NAME": "Ghostly Remains",
+    "DESCRIPTION": "Whenever you Exhaust a card with Ethereal, make a *Treasure."
+  }
+}
